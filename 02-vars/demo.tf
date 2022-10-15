@@ -25,7 +25,12 @@ output "number" {
 
 variabl "ex-list" {
     default = [
-        
+        "AWS",
+        "GCP",
+        "Azure",
+        "DevOps",
+        100,
+        true 
     ]
 }
 
