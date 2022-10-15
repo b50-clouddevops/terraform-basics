@@ -49,3 +49,7 @@ variable "ex-map" {
         Batch    = "0600AM"
      }
 }
+
+output "ex-map" {
+    value = "Welcome to ${var.ex-map[Classs]} Training and "
+}
