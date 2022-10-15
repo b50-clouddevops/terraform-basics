@@ -51,5 +51,5 @@ variable "ex-map" {
 }
 
 output "ex-map" {
-    value = "Welcome to ${var.ex-map[Classs]} Training and "
+    value = "Welcome to ${var.ex-map[Class]} Training and the duration of the training is ${var.ex-map[Duration]} hours and the sche "
 }
