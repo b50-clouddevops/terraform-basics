@@ -23,7 +23,7 @@ output "number" {
     value = var.number  
 }
 
-variabl "ex-list" {
+variable "ex-list" {
     default = [
         "AWS",
         "GCP",
