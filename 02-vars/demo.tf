@@ -30,7 +30,7 @@ variable "ex-list" {
         "DevOps",
         100,
         true,
-        Verma 
+        "Verma 
     ]
 }
 
