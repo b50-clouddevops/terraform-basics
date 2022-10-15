@@ -38,3 +38,8 @@ output "ex-list-op" {
     value = "Welcome to ${var.ex-list[2]} Training and this contains  ${var.ex-list[0]} and the trainer name is  ${var.ex-list[5]}"
 }
 
+
+
+variable "ex-map" {
+     default = 
+}
