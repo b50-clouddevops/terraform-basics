@@ -11,6 +11,5 @@ output "sample-op1" {
 }
 
 
-# A variable can be accessed with or without ${} only if the variable is called. But in case if it is needed to add with some other strings then we need to use double quotes.data "" "name" {
-  
-}
+# A variable can be accessed with or without ${} only if the variable is called. But in case if it is needed to add with some other strings then we need to use double
+# There is no concept of single quores in terraform.
