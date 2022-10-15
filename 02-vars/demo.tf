@@ -60,3 +60,9 @@ output "city" {
 }
 
 # Declaring an empty variable 
+
+variable "State" {}
+
+output "state" {
+    value = var.State
+}
