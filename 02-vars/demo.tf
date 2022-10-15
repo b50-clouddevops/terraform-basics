@@ -21,6 +21,7 @@ output "number" {
     value = var.number  
 }
 
+#Declaring a list variable
 variable "ex-list" {
     default = [
         "AWS",
@@ -39,7 +40,12 @@ output "ex-list-op" {
 }
 
 
-
+# Declaring a map variable 
 variable "ex-map" {
-     default = 
+     default = {
+        Class = "DevOps",
+        Duration = 85
+        Trainer  = "Verma", 
+        Batch    = "0600AM"
+     }
 }
