@@ -23,4 +23,9 @@ output "number" {
     value = var.number  
 }
 
+variabl "ex-list" {
+    default = [
+        
+    ]
+}
 
