@@ -27,16 +27,16 @@ variabl "ex-list" {
     default = [
         "AWS",
         "GCP",
-        "Azure",
         "DevOps",
         100,
-        true 
+        true,
+        Verma 
     ]
 }
 
 
 # From the above list, you can see that data in list can be of any type indivudually. 
 output "ex-list-op" {
-    value = 
+    value = ""
 }
 
