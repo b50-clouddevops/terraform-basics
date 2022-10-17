@@ -23,3 +23,7 @@ resource "aws_security_group" "allows_ssh" {
     Name = "allow_ssg_sg"
   }
 }
+
+output "sg_id" {
+    value = aws_security_group.allows_ssh.id
+}
