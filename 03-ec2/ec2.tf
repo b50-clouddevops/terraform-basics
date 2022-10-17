@@ -38,6 +38,6 @@ resource "aws_security_group" "allow_ssh" {
   }
 
   tags = {
-    Name = "allow_tls"
+    Name = "allow_ssg_sg"
   }
 }
