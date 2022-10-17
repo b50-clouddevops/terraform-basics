@@ -19,7 +19,7 @@ output "public_ip" {
 
 # Creates security group
 resource "aws_security_group" "allows_ssh" {
-  name        = "allow_ssh"
+  name        = "allows_ssh"
   description = "Allow SSH inbound traffic"
 
   ingress {
