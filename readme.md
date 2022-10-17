@@ -2,3 +2,7 @@
 
 ### Terraform installation link :
 
+### Arguments & Attributes : 
+
+Arguments  : Properties that we use to provision the infra 
+Attributes :
