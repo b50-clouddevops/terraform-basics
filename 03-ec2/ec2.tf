@@ -10,3 +10,5 @@ resource "aws_instance" "demo" {
     Name = "EC2-Terraform-Instance"
   }
 }
+
+output 
