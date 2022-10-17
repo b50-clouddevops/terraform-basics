@@ -1,8 +1,9 @@
 resource "aws_instance" "demo" {
-  ami           = data.aws_ami.ubuntu.id
+  ami           = "ami-05317b7d9de33d0b8"
   instance_type = "t3.micro"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "Linux-Terraform"
   }
 }
+
