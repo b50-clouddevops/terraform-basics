@@ -6,4 +6,3 @@ resource "aws_instance" "demo" {
     Name = "Linux-Terraform"
   }
 }
-
