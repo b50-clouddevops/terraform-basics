@@ -9,3 +9,7 @@ Attributes : Properties that we use to print the details after the creation of i
 
 1) modules 
 2) Datasource : This is used to fetch the information of the already existing resources on cloud.
+3) Provisioners
+    a) file provisioner 
+    b) remote provisioner 
+    c) local-exec provisioner
