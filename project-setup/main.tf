@@ -16,14 +16,14 @@ module "catalogue" {
     APP_VERSION  = "0.0.2"
 }
 
-module "frontend" {
+module "payment" {
     source       = "./ec2"
-    COMPONENT    = "frontend"
+    COMPONENT    = "payment"
     APP_VERSION  = "0.0.2"
 }
 
 module "frontend" {
     source       = "./ec2"
-    COMPONENT    = "frontend"
+    COMPONENT    = "shipping"
     APP_VERSION  = "0.0.2"
 }
