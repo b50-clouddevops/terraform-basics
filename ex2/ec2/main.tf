@@ -6,6 +6,23 @@ resource "aws_instance" "demo1" {
   tags     = {
     Name   = "EC2-Terraform"
   }
+
+  provisioner "remote-exec" {
+  
+  # Connection Provisioner
+  connection {
+    type     = "ssh"
+    user     = "centos"
+    password = var.root_password
+    host     = self.public_ip
+  }
+
+    inline = [
+      "puppet apply",
+      "consul join ${aws_instance.web.private_ip}",
+    ]
+  }
+
 }
 
 variable "sg" {}
