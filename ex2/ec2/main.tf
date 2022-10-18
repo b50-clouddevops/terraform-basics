@@ -6,7 +6,7 @@ resource "aws_instance" "demo1" {
   provisioner "local-exec" {
     command = <<EOF 
     cd /home/centos/ansible 
-    ansible-playbook 
+    ansible-playbook  -i public_ip ??? roboshop.yml
 
 EOF 
   }
