@@ -5,7 +5,8 @@ resource "aws_instance" "demo1" {
 
   provisioner "local-exec" {
     command = <<EOF 
-
+    cd /home/centos/ansible 
+    ansible-playbook 
 
 EOF 
   }
