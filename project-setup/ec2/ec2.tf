@@ -24,3 +24,4 @@ resource "aws_spot_instance_request" "spot_worker" {
   }
 
 }
+
