@@ -5,7 +5,4 @@ resource "aws_route53_record" "component" {
   ttl     = 10
   records = [aws_spot_instance_request.spot_worker.private_ip]
 
-  lifecycle {
-      prevent_destroy = true
-  }
 }
