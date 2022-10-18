@@ -7,3 +7,7 @@ module "ec2" {
 module "sg" {
     source = "./sg"
 }
+
+output "pub_ip" {
+    value = 
+}
