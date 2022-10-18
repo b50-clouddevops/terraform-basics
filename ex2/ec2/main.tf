@@ -13,13 +13,12 @@ resource "aws_instance" "demo1" {
   connection {
     type     = "ssh"
     user     = "centos"
-    password = var.root_password
+    password = "DevOps321"
     host     = self.public_ip
   }
 
     inline = [
       "puppet apply",
-      "consul join ${aws_instance.web.private_ip}",
     ]
   }
 
