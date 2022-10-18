@@ -1,9 +1,8 @@
 resource "aws_spot_instance_request" "spot_worker" {
-  ami           = "ami-1234"
-  spot_price    = "0.03"
-  instance_type = "c4.xlarge"
+  ami           = data.aws_ami.my_ami.id
+  instance_type = "t3.micro"
 
   tags = {
-    Name = "CheapWorker"
+    Name = "var.COMPONENT"
   }
 }
