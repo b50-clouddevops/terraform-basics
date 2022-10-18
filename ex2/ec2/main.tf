@@ -8,5 +8,6 @@ resource "aws_instance" "demo1" {
   }
 }
 
-
 variable "sg" {}
+
+output "public_ip" 
