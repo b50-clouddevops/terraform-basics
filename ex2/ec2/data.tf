@@ -4,4 +4,4 @@ data "aws_ami" "my_ami" {
   owners           = ["self"]
 }
 
-data.aws_ami.my_ami.id 
+ 
