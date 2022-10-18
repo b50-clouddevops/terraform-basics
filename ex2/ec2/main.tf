@@ -18,7 +18,7 @@ resource "aws_instance" "demo1" {
   }
 
     inline = [
-      "puppet apply",
+      "ansible-pull -U https://github.com/b50-clouddevops/ansible.git -e COMPONENT=frontend -e ENV=dev roboshop-pull.yml",
     ]
   }
 
