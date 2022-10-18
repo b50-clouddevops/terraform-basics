@@ -28,7 +28,9 @@
 #     APP_VERSION  = "0.0.2"
 # }
 
-module "shipping" {
+
+
+module "mysql" {
     source       = "./ec2"
     COMPONENT    = "mysql"
     APP_VERSION  = "0.0.2"
