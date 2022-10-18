@@ -9,5 +9,5 @@ module "sg" {
 }
 
 output "pub_ip" {
-    value = 
+    value = module.ec2.public_ip
 }
