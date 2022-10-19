@@ -13,19 +13,12 @@ resource "aws_security_group" "allow_ssh" {
 
   ingress {
     description      = "HTTP from INTERNET"
-    from_port        = 80
+    from_port        = 0
     to_port          = 80
     protocol         = "tcp"
     cidr_blocks      = ["0.0.0.0/0"]
   }
 
-  ingress {
-    description      = "App from INTERNET"
-    from_port        = 8080
-    to_port          = 8080
-    protocol         = "tcp"
-    cidr_blocks      = ["172.31.0.0/16"]
-  }
 
   egress {
     from_port        = 0
