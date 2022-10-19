@@ -28,10 +28,26 @@ module "shipping" {
     APP_VERSION  = "0.0.2"
 }
 
-
-
 module "mysql" {
     source       = "./ec2"
     COMPONENT    = "mysql"
+    APP_VERSION  = "0.0.2"
+}
+
+module "redis" {
+    source       = "./ec2"
+    COMPONENT    = "redis"
+    APP_VERSION  = "0.0.2"
+}
+
+module "mongodb" {
+    source       = "./ec2"
+    COMPONENT    = "rabbitmq"
+    APP_VERSION  = "0.0.2"
+}
+
+module "rabbitmq" {
+    source       = "./ec2"
+    COMPONENT    = "rabbitmq"
     APP_VERSION  = "0.0.2"
 }
