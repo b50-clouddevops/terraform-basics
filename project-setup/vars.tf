@@ -1,5 +1,4 @@
 # Map variable
-
 variable "ALL_COMPONENTS" {
     default = {
         mongodb = {
@@ -31,7 +30,6 @@ variable "ALL_COMPONENTS" {
         },
         frontend = {
             app_version = "0.0.2"
-        },
-
+        }
     }
 }
