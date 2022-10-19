@@ -15,22 +15,22 @@ variable "ALL_COMPONENTS" {
             app_version = "null"
         },
         catalogue = {
-            app_version = "null"
+            app_version = "0.1.0"
         },
         cart = {
-            app_version = "null"
+            app_version = "0.0.1"
         },
         user = {
-            app_version = "null"
+            app_version = "0.0.1"
         },
         shipping = {
-            app_version = "null"
+            app_version = "0.0.1"
         },
         payment = {
-            app_version = "null"
+            app_version = "0.0.1"
         },
         frontend = {
-            app_version = "null"
+            app_version = "0.0.2"
         },
 
     }
