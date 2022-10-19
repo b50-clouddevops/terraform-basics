@@ -4,18 +4,10 @@ resource "aws_security_group" "allow_ssh" {
   description = "Allow SSH inbound traffic"
 
   ingress {
-    description      = "SSH from INTERNET"
-    from_port        = 22
-    to_port          = 22
-    protocol         = "-1"
-    cidr_blocks      = ["0.0.0.0/0"]
-  }
-
-  ingress {
     description      = "HTTP from INTERNET"
     from_port        = 0
     to_port          = 0
-    protocol         = "tcp"
+    protocol         = "-1"
     cidr_blocks      = ["0.0.0.0/0"]
   }
 
