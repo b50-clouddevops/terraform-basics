@@ -13,3 +13,8 @@ Attributes : Properties that we use to print the details after the creation of i
     a) file provisioner 
     b) remote provisioner 
     c) local-exec provisioner
+
+# What is mutable infra ?
+
+```
+Infra that does change. Which also means if v1 of applications is running on server A and if you wish to deploy v2 
