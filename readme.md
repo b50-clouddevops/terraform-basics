@@ -17,4 +17,12 @@ Attributes : Properties that we use to print the details after the creation of i
 # What is mutable infra ?
 
 ```
-Infra that does change. Which also means if v1 of applications is running on server A and if you wish to deploy v2 
+Infra that does change. Which also means if v1 of applications is running on server A and if you wish to deploy v2 , you wll be deploying on the same server A. Here server remains the same and applicaion is only updated.
+```
+
+# What is immmutable infra ? ( containers introducted this concept first)
+
+```
+Infra that does not change. Which also means if v1 of applications is running on server A and if you wish to deploy v2 , you wll be deploying on the same server A. Here server remains the same and applicaion is only updated.
+```
+
